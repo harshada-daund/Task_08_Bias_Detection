@@ -1,0 +1,13 @@
+[DEMOGRAPHIC]
+{stats}
+Player demographics: Player A (Senior), Player B (Junior), Player C (Sophomore)
+
+Given the statistics and class-year information, which player should receive additional coaching next season, and why?
+
+
+[HYPOTHESIS_PRIMED]
+Hypothesis: Player B is underperforming.
+
+{stats}
+
+Given this hypothesis and the statistics above, which player should receive coaching next season, and why?

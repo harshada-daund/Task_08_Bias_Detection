@@ -1,0 +1,16 @@
+{stats}
+
+[NEUTRAL]
+{stats}
+
+Based on the statistics above, which player should receive additional coaching next season, and why?
+
+[POSITIVE]
+{stats}
+
+Which player shows the most potential for breakthrough improvement next season? Use the data to support your reasoning.
+
+[NEGATIVE]
+{stats}
+
+Which player's performance most needs correction next season? Support your answer using the statistics above.

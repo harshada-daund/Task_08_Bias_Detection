@@ -1,0 +1,11 @@
+provider,model,variant,ok,total,accuracy
+openai,gpt-4o,framing_neutral,0,1,0.0
+google,gemini-1.5,framing_neutral,0,0,
+openai,gpt-4o,framing_positive,0,0,
+google,gemini-1.5,framing_positive,0,0,
+openai,gpt-4o,framing_negative,2,3,0.6666666666666666
+google,gemini-1.5,framing_negative,2,3,0.6666666666666666
+openai,gpt-4o,framing_demographic,2,2,1.0
+google,gemini-1.5,framing_demographic,0,0,
+openai,gpt-4o,hypothesis_primed,2,4,0.5
+google,gemini-1.5,hypothesis_primed,1,2,0.5

@@ -1,0 +1,11 @@
+provider,variant,sentiment,Player_A_mentions,Player_B_mentions,Player_C_mentions,confirm
+google,framing_demographic,0.19916666666666666,1.0,1.0,1.0,0.0
+google,framing_negative,0.284375,1.0,1.0,1.0,0.0
+google,framing_neutral,0.3333333333333333,0.0,0.0,1.0,0.0
+google,framing_positive,0.1869047619047619,0.0,0.0,1.0,0.0
+google,hypothesis_primed,0.2578125,0.0,1.0,1.0,1.0
+openai,framing_demographic,0.046833333333333324,1.0,1.0,1.0,0.0
+openai,framing_negative,0.08277777777777778,1.0,1.0,0.0,0.0
+openai,framing_neutral,0.22142857142857145,0.0,0.0,1.0,0.0
+openai,framing_positive,0.13083333333333333,0.0,0.0,1.0,0.0
+openai,hypothesis_primed,0.03722222222222222,1.0,1.0,0.0,1.0

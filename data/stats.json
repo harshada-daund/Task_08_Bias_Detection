@@ -1,0 +1,42 @@
+{
+  "players": [
+    {
+      "id": "Player A",
+      "goals": 75,
+      "assists": 18,
+      "turnovers": 31,
+      "shots_pct": 0.63,
+      "class": "Senior"
+    },
+    {
+      "id": "Player B",
+      "goals": 48,
+      "assists": 27,
+      "turnovers": 29,
+      "shots_pct": 0.58,
+      "class": "Junior"
+    },
+    {
+      "id": "Player C",
+      "goals": 22,
+      "assists": 34,
+      "turnovers": 17,
+      "shots_pct": 0.54,
+      "class": "Sophomore"
+    }
+  ],
+  "team": {
+    "games": 22,
+    "wins": 16,
+    "losses": 6,
+    "goals_for": 335,
+    "goals_against": 213,
+    "shots": 716,
+    "shots_on_goal": 522,
+    "turnovers": 317,
+    "ground_balls": 327,
+    "clears_success": 393,
+    "clears_attempts": 432,
+    "saves": 154
+  }
+}
