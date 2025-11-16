@@ -1,32 +1,49 @@
-# Task 08 – Bias Detection in LLM-Generated Data Narratives
-
-## 📘 Overview
-
-I am currently in the **planning stage** for Task 08. This project will explore how **Large Language Models (LLMs)** might produce biased or inconsistent narratives when summarizing or interpreting the same dataset. I plan to use the **Syracuse Women’s Lacrosse 2024 dataset**, which has been anonymized using generic player labels (Player A, Player B, Player C).
+# Task 08 — Bias Detection in LLM-Generated Data Narratives  
+### Dataset: Syracuse Women’s Lacrosse 2024 (Anonymized as Player A, B, C)
 
 ---
 
-## 🎯 Purpose
+## 📌 Overview
 
-The main goal is to design a small controlled experiment that tests whether changes in question framing or context — such as positive vs. negative wording or including demographic details — influence the responses produced by LLMs. This will help identify possible **framing**, **confirmation**, and **demographic biases** in AI-generated outputs.
+This repository contains my full implementation of **Research Task 08**, which investigates whether Large Language Models (LLMs) produce biased narratives when the same dataset is presented with different **prompt framings**.
+
+Using the **2024 Syracuse Women’s Lacrosse dataset** (anonymized as Player A, Player B, Player C), I tested how five framing strategies impact GPT-4o and Gemini 1.5 responses:
+
+1. **Neutral framing**  
+2. **Positive framing**  
+3. **Negative framing**  
+4. **Demographic framing**  
+5. **Hypothesis-primed framing**
+
+Each prompt was run **once in GPT-4o** and **once in Gemini**, creating a clean 10-sample controlled comparison.
+
+All modeling was done **locally**, using manual copy-paste (no API keys), storing outputs in JSONL format for validation and analysis.
 
 ---
 
-## 🧩 Current Planning Progress
 
-* Reviewed the official **Task 08** instructions and research objectives.
-* Selected the **anonymized Syracuse Women’s Lacrosse dataset** for testing.
-* Outlined initial ideas for prompts that vary by tone and framing.
-* Planned to test results across different LLMs (ChatGPT, Claude, Gemini).
-* Created the basic GitHub repository structure to store prompts, outputs, and analysis scripts.
+## 🔍 Key Findings (Short Version)
 
-No experiments have been run yet — this phase is focused on planning and setup only.
+Provider Bias:
+Gemini consistently produced more positive sentiment than GPT-4o across all prompt types.
+
+Framing Bias:
+Neutral & positive prompts generated the highest sentiment; negative & hypothesis-primed prompts lowered sentiment.
+
+Hypothesis Confirmation:
+GPT-4o showed greater shift toward negative tone under “Player B is underperforming,” indicating hypothesis reinforcement.
+
+Demographic Framing:
+No harmful demographic bias observed; sentiment remained mid-range and controlled.
 
 ---
 
-## 🧠 Next Steps
+## 📜 License & Compliance
 
-* Finalize prompt variations and bias hypotheses.
-* Begin running model tests in the next reporting period.
-* Log results systematically for analysis and comparison.
+No real player names included
 
+Dataset anonymized
+
+No raw SU data included in repo
+
+All LLM outputs manually collected (no API keys used)
