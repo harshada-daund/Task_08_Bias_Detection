@@ -17,12 +17,12 @@ Using the **2024 Syracuse Women’s Lacrosse dataset** (anonymized as Player A, 
 
 Each prompt was run **once in GPT-4o** and **once in Gemini**, creating a clean 10-sample controlled comparison.
 
-All modeling was done **locally**, using manual copy-paste (no API keys), storing outputs in JSONL format for validation and analysis.
+All modeling was done **locally**, using manual copy-paste (no API keys), storing outputs in JSON format for validation and analysis.
 
 ---
 
 
-## 🔍 Key Findings (Short Version)
+## 🔍 Key Findings
 
 Provider Bias:
 Gemini consistently produced more positive sentiment than GPT-4o across all prompt types.
